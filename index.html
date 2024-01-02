@@ -8,9 +8,21 @@
     <link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon" />
   </head>
   <body class="relative bg-secondary text-white font-work-sans">
-    <section style="background-image: url('/src/assets/banner.png')" class="bg-cover">
-      <!-- Main Content -->
-      <div class="max-w-screen-xl mx-auto">
+    <section
+      style="background-image: url('/src/assets/banner.png'); position: relative"
+      class="bg-cover"
+    >
+      <div
+        style="
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+        "
+      ></div>
+      <div class="max-w-screen-xl mx-auto" style="position: relative">
         <!-- NavBar -->
         <nav class="flex flex-col items-center pt-10 lg:flex-row lg:justify-between">
           <div class="font-bold text-5xl text-center">
@@ -19,7 +31,7 @@
             </a>
           </div>
           <div
-            class="flex flex-col gap-4 text-[#FFFFFF99] text-lg text-center font-medium my-5 lg:flex-row lg:gap-10"
+            class="flex flex-col gap-4 text-[#FFFFFF99] text-center font-medium my-5 lg:flex-row lg:gap-10"
           >
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -34,23 +46,136 @@
             >
           </div>
         </nav>
+
         <!-- Banner -->
-        <div class="my-10 py-24 px-2 text-center lg:text-left lg:w-1/2">
+        <section class="my-10 py-20 px-2 text-center lg:text-left lg:w-1/2">
           <h4 class="text-4xl lg:text-6xl font-bold">
             The Ultimate Competitive <span class="text-primary">Gaming</span> Platform
           </h4>
-          <p class="text-[#FFFFFFCC] pt-10">
+          <p class="text-[#FFFFFFCC] pt-6">
             It's difficult to find examples of lorem ipsum in use before Letraset made it popular as
             a dummy text in the 1960s, although McClintock says he remembers coming across the
             passage in a book of old metal.
           </p>
-          <div class="pt-10 flex gap-5 justify-center lg:justify-start">
+          <div class="pt-8 flex gap-5 justify-center lg:justify-start">
             <button class="bg-primary text-secondary font-semibold px-7 py-3 rounded-lg border">
               Join Us Now
             </button>
             <button class="text-white font-semibold px-7 py-3 rounded-lg border">Read More</button>
           </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- New Games -->
+    <section class="max-w-screen-xl mx-auto my-24">
+      <div class="text-center">
+        <h4 class="text-5xl font-semibold">New Released Games</h4>
+        <p class="max-w-screen-md mx-auto pt-6 text-sm text-[#FFFFFFCC]">
+          It's difficult to find examples of lorem ipsum in use before Letraset made it popular as a
+          dummy text in the 1960s, although McClintock says he remembers coming across .
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div
+          style="
+            background-image: url('/src/assets/Rectangle\ 22.png');
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            position: relative;
+          "
+          class="h-[464px] pb-8"
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.5);
+            "
+          ></div>
+          <div class="px-8" style="position: relative">
+            <button class="bg-primary text-secondary font-semibold px-6 py-2 rounded">
+              Tablet
+            </button>
+            <h4 class="text-2xl font-semibold pt-4">Vanill Masters Administ Ratio.</h4>
+            <div class="inline-flex gap-3 pt-3">
+              <img src="/src/assets/Frame.svg" alt="star" />
+              <p>8.6/10 Action-Rpg, Platform</p>
+            </div>
+          </div>
         </div>
+        <div
+          style="
+            background-image: url('/src/assets/Rectangle\ 23.png');
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            position: relative;
+          "
+          class="h-[464px] pb-8"
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.5);
+            "
+          ></div>
+          <div class="px-8" style="position: relative">
+            <button class="bg-primary text-secondary font-semibold px-6 py-2 rounded">
+              Tablet
+            </button>
+            <h4 class="text-2xl font-semibold pt-4">Vanill Masters Administ Ratio.</h4>
+            <div class="inline-flex gap-3 pt-3">
+              <img src="/src/assets/Frame.svg" alt="star" />
+              <p>8.6/10 Action-Rpg, Platform</p>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            background-image: url('/src/assets/Rectangle\ 24.png');
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            position: relative;
+          "
+          class="h-[464px] pb-8"
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.5);
+            "
+          ></div>
+          <div class="px-8" style="position: relative">
+            <button class="bg-primary text-secondary font-semibold px-6 py-2 rounded">
+              Tablet
+            </button>
+            <h4 class="text-2xl font-semibold pt-4">Vanill Masters Administ Ratio.</h4>
+            <div class="inline-flex gap-3 pt-3">
+              <img src="/src/assets/Frame.svg" alt="star" />
+              <p>8.6/10 Action-Rpg, Platform</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center pt-20">
+        <button class="px-10 py-5 border border-primary text-primary rounded-lg">
+          View All Games
+        </button>
       </div>
     </section>
   </body>
